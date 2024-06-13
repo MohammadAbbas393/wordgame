@@ -46,3 +46,14 @@ Here are some additional features that have been added to the game:
 - **Best Records Saving**: The game now saves the best records in a file, including the user's name.
 
 - **Options Menu**: Options such as starting a new game and revealing the secret word have been added for enhanced gameplay.
+
+Support
+-------
+If you like my work and wish to support it, feel free to buy me a coffee!
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/mohamadabb3">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy me a coffee"/>
+  </a>
+</p>
+

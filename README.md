@@ -1,59 +1,45 @@
-# Guess The Word Game
+# Word Game
 
-Welcome to the Guess The Word game! This game challenges you to guess a secret word by inputting letters. Here are some instructions on how to play and contribute to this project.
+A Python terminal word guessing game. You try to guess a secret word one letter at a time. Each correct guess reveals the letter in the word. Each wrong guess brings you closer to losing. Built to explore string manipulation, dictionary lookups, and clean game loop logic.
 
-## How to Play the Game
+## How to Play
 
-### Windows Users
+### Mac / Linux
 
-1. Download all the content from the `bin` folder.
-2. Place the downloaded content in any desired folder on your computer.
-3. Launch `GuessTheWord.exe`.
-4. Enjoy playing the game!
+```bash
+python wordgame.py
+```
 
-### Linux or Mac OS Users
+### Windows
 
-If you need to play the game on Linux or Mac OS:
-1. download or clone the file in your terminal until you see your file in your computer files
-2. run the code and play it on the terminal
+Download the files from the `bin` folder and run the executable, or run directly with Python:
 
-## Contributing to the Project
+```bash
+python wordgame.py
+```
 
-We welcome contributions to enhance the game and its features! Here's how you can contribute:
+## Gameplay
 
-1. **Create a Personal Fork**: Fork the project to your GitHub account.
+1. A secret word is chosen at random
+2. You see blanks for each letter in the word
+3. Type a letter and press Enter to guess
+4. Correct letters are revealed in their positions
+5. Wrong guesses are counted against you
+6. You win by revealing all letters before running out of attempts
 
-2. **Apply Modifications**: Make your desired modifications to the game in your forked repository.
+## Getting Started
 
-3. **Open a Pull Request**: Once you're done with your modifications, open a pull request from your forked repository to the main project repository.
+```bash
+# 1. Clone the repo
+git clone https://github.com/MohammadAbbas393/wordgame
+cd wordgame
 
-4. **Review and Merge**: Wait for your pull request to be reviewed and merged by the project maintainers.
+# 2. Run the game
+python wordgame.py
+```
 
-5. **Pull Changes**: After your pull request is approved and merged, you can pull the changes from the main project repository to your local machine.
+## Requirements
 
-## Game Features Added
-
-Here are some additional features that have been added to the game:
-
-- **Difficulty Levels**: Choose from different difficulty levels to challenge yourself.
-  
-- **Score Calculation**: The score is now computed based on the length of the secret word.
-
-- **Multiple Dictionary Files**: Select from various dictionary files. The words in the demo are all fruit names.
-
-- **Timer**: A timer has been added to add a sense of urgency to the game.
-
-- **Best Records Saving**: The game now saves the best records in a file, including the user's name.
-
-- **Options Menu**: Options such as starting a new game and revealing the secret word have been added for enhanced gameplay.
-
-Support
--------
-If you like my work and wish to support it, feel free to buy me a coffee!
-
-<p align="center">
-  <a href="https://www.buymeacoffee.com/mohamadabb3">
-    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy me a coffee"/>
-  </a>
-</p>
+- Python 3.6+
+- No external libraries needed
 
